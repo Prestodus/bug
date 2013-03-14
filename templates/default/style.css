@@ -1,0 +1,258 @@
+html {
+    
+    height: 60%;
+    
+}
+
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    background: #e0e2e1;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UyZTJlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iI2RiZGJkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIyJSIgc3RvcC1jb2xvcj0iI2QxZDFkMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWZlZmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 10%, #d1d1d1 22%, #fefefe 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(10%,#dbdbdb), color-stop(22%,#d1d1d1), color-stop(100%,#fefefe));
+    background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 10%,#d1d1d1 22%,#fefefe 100%);
+    background: -o-linear-gradient(top, #e2e2e2 0%,#dbdbdb 10%,#d1d1d1 22%,#fefefe 100%);
+    background: -ms-linear-gradient(top, #e2e2e2 0%,#dbdbdb 10%,#d1d1d1 22%,#fefefe 100%);
+    background: linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 10%,#d1d1d1 22%,#fefefe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+	font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-color: #fefefe;
+
+}
+
+#page_container {
+    
+    width: 1000px;
+    margin: 15px auto;
+     
+}
+
+#page_header {
+    
+    width: 100%-12px;
+    height: 158px;
+    margin: 0px auto 15px auto;
+    padding: 12px 12px 12px 20px;
+     
+}
+
+#page_header h1 {
+    
+    font-size: 35pt;
+    
+}
+
+#page_header h4 {
+    
+    font-size: 20pt;
+    
+}
+
+#page_header h1, h2, h3, h4, h5, h6 {
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#page_header #logo {
+    
+    float: left;
+    margin: -10px 0px 0px -30px;
+    text-align: center;
+    
+}
+
+#page_header #rightbox {
+    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 144px;
+    width: 175px;
+    background: rgb(240, 240, 240);
+    padding: 7px;
+    font-size: 11pt;
+    text-align: center;
+    
+}
+
+#page_menu {
+    
+    color: #2d2d2d;
+    
+}
+
+#page_menu a {
+    
+    display: block;
+    text-decoration: none;
+    
+}
+
+.menuitem {
+    
+    float: left;
+    width: 120px;
+    margin: 7px;
+    margin-bottom: 0px;
+    height: 25px;
+    line-height: 25px;
+    padding: 3px;
+    list-style: none;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+    
+}
+
+.menuitem:hover {
+    
+    background: #F7F7F7;
+    font-weight: bold;
+    
+}
+
+.menuitem ul {
+    
+    display: none;
+    list-style: none;
+    
+}
+
+.menuitem:hover ul {
+    
+    width: 120px;
+    text-align: center;
+    border: 1px solid #babcbb;
+    border-top: none;
+    display: block;
+    position: relative;
+    background: #F7F7F7;
+    padding: 5px 5px 10px 5px;
+    margin: 5px 0px 0px -6px;
+    z-index: 100;
+    font-weight: normal;
+    cursor: default;
+    
+}
+
+.menuitem:hover ul li:hover {
+    
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#page_center {
+    
+    overflow: hidden;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+
+#center_content {
+    
+    width: 758px;
+    float: left;
+    padding: 10px 5px 10px 8px;
+    margin-bottom: -2000px;
+    padding-bottom: 2000px;
+    
+}
+
+#center_content h1 {
+    
+    font-size: 17pt;
+    display: block;
+    width: 95%;
+    margin: 0px;
+    border-bottom: 2px solid #fcfcfc;
+    margin-bottom: 10px;
+    
+}
+
+#center_sidebar {
+    
+    width: 218px;
+    float: left;
+    margin-bottom: -2000px;
+    padding: 10px 0px 2000px 5px;
+    border-left: 2px solid #fcfcfc;
+    
+}
+
+#center_sidebar header {
+    
+    font-weight: bold;
+    font-size: 14pt;
+    
+}
+
+#center_sidebar li {
+
+	list-style: none;
+	margin-left: -25px;
+	
+}
+
+#page_prefooter {
+    
+    margin-bottom: 20px;
+    padding: 12px;
+    
+}
+
+#page_footer {
+    
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    padding: 12px;
+    margin-top: 10px;
+    
+}
+
+.styledbox {
+    
+    background: #eaeaea; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmY2ZjZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #EBEBEB 0%, #fcfcfc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #EBEBEB 0%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #EBEBEB 0%,#fcfcfc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #EBEBEB 0%,#fcfcfc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #EBEBEB 0%,#fcfcfc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-8 */
+    /*background: url(http://wpteach.com/wp-content/uploads/2011/12/framework.jpg);*/
+    border: 2px solid #fcfcfc;
+    outline: 1px solid #babcbb;
+    
+}
+
+.clear {
+    
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+
+}
+
+a {
+    
+    color: #2d2d2d;
+    
+}
+
+a:hover {
+    
+    text-decoration: none;
+    
+}

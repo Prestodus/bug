@@ -1,0 +1,1 @@
+&copy; Copyright <strong><?php show(CFG_OWNER) ?></strong> <?php show("year") ?>
