@@ -13,9 +13,8 @@
         <ul>
     
             <?php menuitem("home") ?>
-            <?php menuitem("login") ?>
+            <?php menuitem("How it's made", "pages/website") ?>
             <?php menuitem("contact") ?>
-            <?php menuitem("lorem ipsum", "pages/lorem") ?>
         
         </ul>
     

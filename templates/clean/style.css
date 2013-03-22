@@ -147,6 +147,20 @@ body {
     
 }
 
+#page_header a {
+    
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+#page_header a:hover {
+    
+    text-decoration: underline;
+    
+}
+
 #page_postheader {
     
     width: 100%;
@@ -258,17 +272,6 @@ body {
     -o-transition: background 0.7s;
     transition: background 0.7s, box-shadow 0.3s;
     
-}
-
-@-moz-document url-prefix() {
-
-    #page_center #prefooter .block {
-        
-        outline-offset: -26px;
-                        
-            
-    }
-
 }
 
 #page_center #prefooter .block:hover {

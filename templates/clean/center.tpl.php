@@ -13,6 +13,7 @@
         <ul>
                     
             <?php menuitem("login") ?>
+            <?php menuitem("lorem ipsum", "pages/lorem") ?>
             <li><a href="#">Sidebar item 1</a></li>
             <li><a href="#">Sidebar item 2</a></li>
             <li><a href="#">Sidebar item 3</a></li>
