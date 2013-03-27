@@ -224,6 +224,20 @@ function block($toshow) {
 
 // ------
 
+function codeblock($title, $code) {
+    
+    if (strlen($title) > 0) $title = "<div class='about'>$title</div>";
+    else $title = "";
+    echo '<div class="code">
+<div class="header">Code'.$title.'<div class="select">Select</div></div>
+';
+    echo "<div class='highlight'>".highlight_string($code, TRUE)."</div>";
+    echo '</div>';
+    
+}
+
+// ------
+
 function endblock($toshow) {
     
     $dbh = Conn::getInstance();

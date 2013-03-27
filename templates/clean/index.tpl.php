@@ -6,6 +6,8 @@
     <meta charset="UTF-8" />
     <title><?php show(CFG_TITLE) ?></title>
     <link rel="stylesheet" href="<?php show(CFG_PATH) ?>/templates/<?php show(TPL_FOLDER) ?>/style.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+    <script type="text/javascript" src="<?php show(CFG_PATH) ?>/templates/<?php show(TPL_FOLDER) ?>/javascript/jquery.functions.js"></script>
     <!--[if lt IE 9]>
     <script src="<?php show(CFG_PATH) ?>/templates/<?php show(TPL_FOLDER) ?>/javascript/html5shiv.js"></script>
     <![endif]-->
@@ -30,8 +32,6 @@
         <section id="page_postcenter"></section>
         
         <section id="page_footer"><?php show("footer") ?></section>
-		
-        <!--<section id="page_postfooter"></section>-->
     
     </section>
 
